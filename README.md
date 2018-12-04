@@ -6,7 +6,7 @@ Comme les sujets Kafka ne sont pas créés automatiquement par défaut, cette ap
 
 Lancement de serveur Kafka :
 
-docker-compose up -d
+`$ docker-compose up -d`
 
 Création des topics :
 
@@ -16,7 +16,7 @@ Création des topics :
 
 Run de l'application :
 
-mvn spring-boot:run
+`$ mvn spring-boot:run`
 
 Lorsque l'application s'exécute correctement, la sortie suivante est connectée à la console (avec les journaux printaniers):
 
